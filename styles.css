@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#greeting-cointainer {
+    width: 50vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 5px black;
+    text-align: center;
+}
+
+label {
+    align-self: self-start;
+    margin-top: 15px;
+}
+
+input {
+    width: 95%;
+    margin-top: 8px;
+    padding: 8px;
+    font-size: 16px
+}
+
+button {
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 16px
+}
+
+div {
+    color: white;
+    margin-top: 20px;
+}
